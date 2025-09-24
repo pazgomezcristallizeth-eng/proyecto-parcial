@@ -9,7 +9,7 @@ def main(page: ft.Page):
         {
           "titulo": "Siddhartha",
           "descripcion": "Jorge Siddhartha Gonzalez Ibarra, conocido artísticamente como Siddhartha, es un músico solista de Indie Rock nacido el 25 de agosto de 1977 en Jalisco-Guadalajara, México. Sus letras son introspectivas y sus melodías combinan rock, pop y elementos electrónicos.",
-          "imagen": ""
+          "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Vol2.jpeg"
         },
         {
             "titulo": "Why You?",
@@ -63,6 +63,7 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
 
