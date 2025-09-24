@@ -27,7 +27,7 @@ def main(page: ft.Page):
             "titulo": "El vuelo del pez",
             "lanzamiento":2014,
             "descripcion":"Es el tercer álbum de estudio del cantante mexicano Siddhartha lanzado el 14 de enero de 2014. El disco está compuesto por 11 canciones.",
-            "imagen": ""
+            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Elvuelodelpez.jpeg"
         },
         {
             "titulo": "Únicos",
@@ -56,6 +56,7 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
 
