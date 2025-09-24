@@ -36,12 +36,25 @@ def main(page: ft.Page):
             "imagen": ""
         },
         {
-            "titulo": "",
-            "lanzamiento":"",
-            "descripcion":"",
+            "titulo": "Memoria futuro, vol. 1",
+            "lanzamiento":2019,
+            "descripcion":"Memoria futuro es el quinto álbum de estudio del cantante mexicano Siddhartha,[1] publicado el 2 de noviembre de 2020. por Sony Music",
             "imagen": ""
+        },
+        {
+            "titulo": " ",
+            "lanzamiento": " ",
+            "descripción": " ",
+            "imagen": " "
+        },
+        {
+            "titulo": " ",
+            "lanzamiento": " ",
+            "descripción": " ",
+            "imagen": " "
         },
     ]
     
 ft.app(main)
+
 
