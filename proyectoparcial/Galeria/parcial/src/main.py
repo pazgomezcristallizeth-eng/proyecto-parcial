@@ -14,7 +14,7 @@ def main(page: ft.Page):
         {
             "titulo": "Why You?",
             "lanzamiento": 2008,
-            "descripcion":"Es catalogado como una de las mejores producciones del año por las revistas especializadas Warp, Marvin, Rolling Stone, Sonika y Círculo Mixup.",
+            "descripcion":"Why You? es el álbum debut del cantante mexicano Siddhartha lanzado en 2008. Éste está compuesto por un cuadernillo de 11 imágenes principales que hacen referencia a la pregunta del mismo nombre que el álbum: Why You?.",
             "imagen": "https://raw.githubusercontent.com/pazgomezcristallizeth-eng/proyecto-parcial/refs/heads/main/Why%20You.jpeg" 
         },
         {
@@ -56,5 +56,6 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
