@@ -8,54 +8,62 @@ def main(page: ft.Page):
     cantante = [
         {
           "titulo": "Siddhartha",
-          "descripcion": "Jorge Siddhartha Gonzalez Ibarra, conocido artísticamente como Siddhartha, es un músico solista de Indie Rock nacido el 25 de agosto de 1977 en Jalisco-Guadalajara, México.",
+          "descripcion": "Jorge Siddhartha Gonzalez Ibarra, conocido artísticamente como Siddhartha, es un músico solista de Indie Rock nacido el 25 de agosto de 1977 en Jalisco-Guadalajara, México. Sus letras son introspectivas y sus melodías combinan rock, pop y elementos electrónicos.",
           "imagen": ""
         },
         {
             "titulo": "Why You?",
-            "lanzamiento": 2008,
-            "descripcion":"Why You? es el álbum debut del cantante mexicano Siddhartha lanzado en 2008. Éste está compuesto por un cuadernillo de 11 imágenes principales que hacen referencia a la pregunta del mismo nombre que el álbum: Why You?.",
+            "lanzamiento": "26 de septiembre de 2008",
+            "canciones": 11,
+            "descripcion":"Primer álbum de Siddhartha como solista. Es el álbum uno de su carrera, con un sonido introspectivo y melódico que le dio reconocimiento en la escena indie mexicana y una nominación al Latin Grammy.",
             "imagen": "https://raw.githubusercontent.com/pazgomezcristallizeth-eng/proyecto-parcial/refs/heads/main/Why%20You.jpeg" 
         },
         {
             "titulo": "Náufrago",
-            "lanzamiento":2011,
-            "descripcion": "Es el segundo álbum de estudio del cantante mexicano Siddhartha lanzado en 2011, el disco está compuesto por 11 canciones originalmente",
+            "lanzamiento": "14 de septiembre de 2011",
+            "canciones": 11,
+            "descripcion": "Segundo álbum de Siddhartha. Más maduro y experimental que el primero, consolidó su lugar en el rock alternativo mexicano y tuvo gran recepción crítica y comercial.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/naufrago.jpg"
         },
         {
             "titulo": "El vuelo del pez",
-            "lanzamiento":2014,
-            "descripcion":"Es el tercer álbum de estudio del cantante mexicano Siddhartha lanzado el 14 de enero de 2014. El disco está compuesto por 11 canciones.",
+            "lanzamiento":"14 de enero de 2014",
+            "canciones": 11,
+            "descripcion":"Tercer álbum de Siddhartha. Marca una evolución sonora con elementos electrónicos y atmosféricos. Alcanzó el No.1 en el Top Chart de iTunes Rock Latino.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Elvuelodelpez.jpeg"
         },
         {
             "titulo": "Únicos",
-            "lanzamiento":2016,
-            "descripcion":"Únicos es el cuarto álbum de estudio del cantante mexicano Siddhartha lanzado el 23 de septiembre de 2016. El disco cuenta con 10 canciones.",
+            "lanzamiento": "23 de septiembre de 2016",
+            "canciones": 10,
+            "descripcion":"Cuarto álbum de Siddhartha. Con un sonido más pulido y accesible, explora temas de identidad y conexión. Recibió elogios por su producción y cohesión artística.",
             "imagen": ""
         },
         {
             "titulo": "Memoria futuro, vol. 1",
-            "lanzamiento":2019,
-            "descripcion":"Memoria Futuro (Vol. 1) de Siddhartha consta de cinco cortes con su característico estilo, es un EP que presenta canciones en capítulos de una misma historia",
+            "lanzamiento": "17 de mayo de 2019",
+            "canciones": 5,
+            "descripcion":"Primer volumen de un álbum conceptual dividido en dos partes. Memoria Futuro (Vol. 1), explora la introspección, la nostalgia y los recuerdos. Cada canción funciona como un capítulo en una narrativa más amplia.",
             "imagen": ""
         },
         {
             "titulo": "Memoria futuro, vol 2.",
-            "lanzamiento": " ",
-            "descripción": " ",
+            "lanzamiento": "4 de marzo de 2020",
+            "canciones": 5,
+            "descripción": "Segundo volumen de la obra conceptual.",
             "imagen": " "
         },
         {
             "titulo": " ",
             "lanzamiento": " ",
+            "canciones": "",
             "descripción": " ",
             "imagen": " "
         },
     ]
     
 ft.app(main)
+
 
 
 
