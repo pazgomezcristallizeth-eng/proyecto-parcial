@@ -37,7 +37,7 @@ def main(page: ft.Page):
             "lanzamiento": "23 de septiembre de 2016",
             "canciones": 10,
             "descripcion":"Cuarto álbum de Siddhartha. Con un sonido más pulido y accesible, explora temas de identidad y conexión. Recibió elogios por su producción y cohesión artística.",
-            "imagen": ""
+            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/unicos.jpg"
         },
         {
             "titulo": "Memoria futuro, vol. 1",
@@ -63,6 +63,7 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
 
