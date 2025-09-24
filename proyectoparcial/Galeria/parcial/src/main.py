@@ -58,7 +58,7 @@ def main(page: ft.Page):
             "título": "Memoria Futuro – Memoria",
             "lanzamiento": "17 de noviembre de 2019",
             "canciones": 5,
-            "descripcion": "Primer volumen. Memoria marca el inicio de una narrativa dividida en capítulos, se enfoca en la introspección, los recuerdos, temas de amor, nostalgia y reflexión. Cada canción funciona como un capítulo en una narrativa más amplia",
+            "descripcion": "Primer volumen. Memoria marca el inicio de una narrativa dividida en capítulos, se enfoca en la introspección, los recuerdos, temas de amor, nostalgia y reflexión. Cada cancion funciona como un capítulo en una narrativa mas amplia",
             "imagen":"https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/memoria.jpeg"
         },
         {
@@ -66,25 +66,22 @@ def main(page: ft.Page):
             "titulo": "Memoria Futuro - Futuro",
             "lanzamiento": "4 de marzo de 2020", 
             "canciones": 5,
-            "descripcion": "Segundo voumen. Futuro complementa la historia iniciada en el primero, profundizando en temas de conexión y crecimiento personal. El disco cierra con la canción "“Memoria Futuro”", que plasma la idea central: la memoria y el futuro como dos planos que conviven.",
+            "descripcion": "Segundo voumen. Futuro complementa la historia iniciada en el primero, profundizando en temas de conexión y crecimiento personal. El disco cierra con la cancion; Memoria Futuro, que plasma la idea central: la memoria y el futuro como dos planos que conviven.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Futuro.jpg"
         }, 
         {
             "titulo": "00:00",
             "lanzamiento": "31 de marzo de 2022",
             "canciones": 10,
-            "descripcion": "Séptimo álbum de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop."
+            "descripcion": "Septimo álbum de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Sexto00.jpeg"
-        },
-        {
-            "titulo": "Nada Te Lastima",
-            "lanzamiento": "
-            "descripcion":"Esta canción de Valsian, Siddhartha, explora temas de evasión. Es una poderosa reflexión sobre la fortaleza interior, recordando la importancia de mantenerse firme en medio de las dificultades y no permitir que nada ni nadie pueda herir tu esencia interior.",
-            "imagen": 
         }
     ]
+
+indice_actual = [0]
     
 ft.app(main)
+
 
 
 
