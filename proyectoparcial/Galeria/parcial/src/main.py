@@ -72,19 +72,20 @@ def main(page: ft.Page):
         {
             "titulo": "00:00",
             "lanzamiento": "31 de marzo de 2022",
-            "canciones": ,
+            "canciones": 10,
             "descripcion": "Séptimo álbum de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop."
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Sexto00.jpeg"
         },
         {
-            "titulo": 
-            "lanzamiento":
-            "descripcion":
+            "titulo": "Nada Te Lastima",
+            "lanzamiento": "
+            "descripcion":"Esta canción de Valsian, Siddhartha, explora temas de evasión. Es una poderosa reflexión sobre la fortaleza interior, recordando la importancia de mantenerse firme en medio de las dificultades y no permitir que nada ni nadie pueda herir tu esencia interior.",
             "imagen": 
         }
     ]
     
 ft.app(main)
+
 
 
 
