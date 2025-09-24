@@ -43,7 +43,7 @@ def main(page: ft.Page):
             "titulo": "Al Aire (En vivo)",
             "lanzamiento": "14 de diciembre de 2018",
             "canciones": 23,
-            "descripción": "Quinto album de Siddhartha. Disco en vivo que captura la energía de Siddhartha sobre el escenario, incluyendo una selección de sus mejores canciones.",
+            "descripcion": "Quinto album de Siddhartha. Disco en vivo que captura la energía de Siddhartha sobre el escenario, incluyendo una selección de sus mejores canciones.",
             "imagen": " "
         },
         {
@@ -54,29 +54,31 @@ def main(page: ft.Page):
         },
         {
             "primera parte": "Memoria Futuro – Vol. 1",
-            "título": "Memoria Futuro – ""Memoria”",
+            "título": "Memoria Futuro – Memoria",
             "lanzamiento": "17 de noviembre de 2019",
             "canciones": 5,
-            "descripción": "Primer volumen. ""Memoria"" marca el inicio de una narrativa dividida en capítulos, se enfoca en la introspección, los recuerdos, temas de amor, nostalgia y reflexión. Cada canción funciona como un capítulo en una narrativa más amplia",
-            "imagen":"https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/memoria.jpeg",
+            "descripcion": "Primer volumen. Memoria marca el inicio de una narrativa dividida en capítulos, se enfoca en la introspección, los recuerdos, temas de amor, nostalgia y reflexión. Cada canción funciona como un capítulo en una narrativa más amplia",
+            "imagen":"https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/memoria.jpeg"
+        },
         {
             "segunda parte": "Memoria Futuro - Vol. 2",
-            "titulo": "Memoria Futuro - ""Futuro"",
+            "titulo": "Memoria Futuro - Futuro",
             "lanzamiento": "4 de marzo de 2020", 
             "canciones": 5,
-            "descripción": "Segundo voumen. ""Futuro"” complementa la historia iniciada en el primero, profundizando en temas de conexión y crecimiento personal. El disco cierra con la canción "“Memoria Futuro”", que plasma la idea central: la memoria y el futuro como dos planos que conviven.",
+            "descripcion": "Segundo voumen. Futuro complementa la historia iniciada en el primero, profundizando en temas de conexión y crecimiento personal. El disco cierra con la canción "“Memoria Futuro”", que plasma la idea central: la memoria y el futuro como dos planos que conviven.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Futuro.jpg"
         }, 
         {
-            "titulo": " ",
+            "titulo": "",
             "lanzamiento": " ",
             "canciones": "",
-            "descripción": " ",
+            "descripcion": " ",
             "imagen": " "
         },
     ]
     
 ft.app(main)
+
 
 
 
