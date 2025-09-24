@@ -51,6 +51,7 @@ def main(page: ft.Page):
             "lanzamiento": "2019 - 2020",
             "canciones": 10,
             "descripcion":"Sexto album de Siddhartha. Memoria Futuro se lanzó en dos partes y nos muestra una exploración de sonidos más electrónicos y experimentales.",
+            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/MemoriaFuturo.jpg"
         },
         {
             "primera parte": "Memoria Futuro – Vol. 1",
@@ -69,15 +70,22 @@ def main(page: ft.Page):
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Futuro.jpg"
         }, 
         {
-            "titulo": "",
-            "lanzamiento": " ",
-            "canciones": "",
-            "descripcion": " ",
-            "imagen": " "
+            "titulo": "00:00",
+            "lanzamiento": "31 de marzo de 2022",
+            "canciones": ,
+            "descripcion": "Séptimo álbum de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop."
+            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Sexto00.jpeg"
         },
+        {
+            "titulo": 
+            "lanzamiento":
+            "descripcion":
+            "imagen": 
+        }
     ]
     
 ft.app(main)
+
 
 
 
