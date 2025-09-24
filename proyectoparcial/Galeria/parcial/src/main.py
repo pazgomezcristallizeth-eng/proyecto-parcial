@@ -73,20 +73,38 @@ def main(page: ft.Page):
             "titulo": "00:00",
             "lanzamiento": "31 de marzo de 2022",
             "canciones": 10,
-            "descripcion": "Septimo álbum de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop.",
+            "descripcion": "Septimo album de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Sexto00.jpeg"
         }
-]
-
-indice_actual=[0]
-    contenedor=ft.Container(
-    content=ft.Column([]),
-    alignment=ft.alignment.center
-)
-
-
+    ]
     
-ft.app(main)
+    indice_actual = [0]
+
+    contenedor=ft.Container(
+             content=ft.Column([]),
+             widht=300
+             height=300
+             bgcolor=ft.Colors.
+             alignment=ft.alignment.center
+             padding=
+    )
+
+    boton_siguiente = ft.ElevatedButton(text="Ver albums")
+
+    def mostrar_artista():
+        artista = cantante[indice_actual[0]]
+        contenedor.content=ft.Column([
+            ft.Image(src=album["imagen"],widht=300,height=400,fit=ft.ImageFit.CONTAIN),
+            ft.Text(album["titulo"],size=20,weight=ft.FontWeight.BOLD),
+            ft.Text(f"descripcion: {album['descripcion']}",size=16),
+            ft.Text(f"lanzamiento: {album['lanzamiento']}",size=16),
+            ft.Text(f"canciones: {album['canciones']}",size=14,italic=True)
+        ],alignment=ft.MainAxisAligment.CENTER)
+
+        if indice_actual[0]==len(album)-1:
+        
+        ft.app(main)
+
 
 
 
