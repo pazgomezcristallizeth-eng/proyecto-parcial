@@ -76,11 +76,18 @@ def main(page: ft.Page):
             "descripcion": "Septimo álbum de Siddhartha. Explora temas como el amor, el desamor, la esperanza y la madurez, con un sonido que mezcla elementos tradicionales mexicanos y pop.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Sexto00.jpeg"
         }
-    ]
+]
 
-indice_actual = [0]
+indice_actual=[0]
+    contenedor=ft.Container(
+    content=ft.Column([]),
+    alignment=ft.alignment.center
+)
+
+
     
 ft.app(main)
+
 
 
 
