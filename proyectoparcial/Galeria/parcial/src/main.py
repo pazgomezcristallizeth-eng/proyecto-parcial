@@ -51,7 +51,7 @@ def main(page: ft.Page):
             "lanzamiento": "4 de marzo de 2020",
             "canciones": 5,
             "descripción": "Segundo volumen de la obra conceptual. Memoria Futuro (Vol. 2), complementa la historia iniciada en el primero. Aquí se refleja el futuro, con un sonido más expansivo y colaboraciones notables. El disco cierra con la canción homónima “Memoria Futuro”, que integra la idea central: la memoria y el futuro como dos planos que conviven.",
-            "imagen": " "
+            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Futuro.jpg"
         },
         {
             "titulo": " ",
@@ -63,6 +63,7 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
 
