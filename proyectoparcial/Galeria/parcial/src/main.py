@@ -40,17 +40,23 @@ def main(page: ft.Page):
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/unicos.jpg"
         },
         {
-            "titulo": "Memoria futuro, vol. 1",
-            "lanzamiento": "17 de mayo de 2019",
+            "titulo": "Memoria Futuro",
+            "lanzamiento": "2019 - 2020",
+            "canciones": 10,
+            "descripcion":"Memoria Futuro se lanzó en dos partes. Nos muestra una exploración de sonidos más electrónicos y experimentales.",
+            
+            "primera parte": "Memoria Futuro – Vol. 1",
+            "título": "Memoria Futuro – ""Memoria”",
+            "lanzamiento": "17 de noviembre de 2019",
             "canciones": 5,
-            "descripcion":"Primer volumen de un álbum conceptual dividido en dos partes. Memoria Futuro (Vol. 1), explora la introspección, la nostalgia y los recuerdos. Cada canción funciona como un capítulo en una narrativa más amplia.",
-            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/memoria.jpeg"
-        },
-        {
-            "titulo": "Memoria futuro, vol 2.",
-            "lanzamiento": "4 de marzo de 2020",
+            "descripción": "Primer volumen. ""Memoria"" marca el inicio de una narrativa dividida en capítulos, se enfoca en la introspección, los recuerdos, temas de amor, nostalgia y reflexión. Cada canción funciona como un capítulo en una narrativa más amplia",
+            "imagen":"",
+            
+            "segunda parte": "Memoria Futuro - Vol. 2",
+            "titulo": "Memoria Futuro - ""Futuro"",
+            "lanzamiento": "4 de marzo de 2020", 
             "canciones": 5,
-            "descripción": "Segundo volumen de la obra conceptual. Memoria Futuro (Vol. 2), complementa la historia iniciada en el primero. Aquí se refleja el futuro, con un sonido más expansivo y colaboraciones notables. El disco cierra con la canción homónima “Memoria Futuro”, que integra la idea central: la memoria y el futuro como dos planos que conviven.",
+            "descripción": "Segundo voumen. ""Futuro"” complementa la historia iniciada en el primero, profundizando en temas de conexión y crecimiento personal. El disco cierra con la canción "“Memoria Futuro”", que plasma la idea central: la memoria y el futuro como dos planos que conviven.",
             "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/Futuro.jpg"
         },
         {
@@ -63,6 +69,7 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
 
