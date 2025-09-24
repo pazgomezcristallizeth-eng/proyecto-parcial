@@ -32,7 +32,7 @@ def main(page: ft.Page):
         {
             "titulo": "Únicos",
             "lanzamiento":2016,
-            "descripcion":"",
+            "descripcion":"Únicos es el cuarto álbum de estudio del cantante mexicano Siddhartha lanzado el 23 de septiembre de 2016. El disco cuenta con 10 canciones.",
             "imagen": ""
         },
         {
@@ -44,3 +44,4 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
