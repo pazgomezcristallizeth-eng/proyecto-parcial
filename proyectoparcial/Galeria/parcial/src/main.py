@@ -44,7 +44,7 @@ def main(page: ft.Page):
             "lanzamiento": "17 de mayo de 2019",
             "canciones": 5,
             "descripcion":"Primer volumen de un álbum conceptual dividido en dos partes. Memoria Futuro (Vol. 1), explora la introspección, la nostalgia y los recuerdos. Cada canción funciona como un capítulo en una narrativa más amplia.",
-            "imagen": ""
+            "imagen": "https://github.com/pazgomezcristallizeth-eng/proyecto-parcial/blob/main/memoria.jpeg"
         },
         {
             "titulo": "Memoria futuro, vol 2.",
@@ -63,6 +63,7 @@ def main(page: ft.Page):
     ]
     
 ft.app(main)
+
 
 
 
